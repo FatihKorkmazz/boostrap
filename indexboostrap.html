@@ -16,7 +16,7 @@
         background-image: url(https://themewagon.github.io/QuickStart/assets/img/hero-services-img.);
       "
     >
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed" style="z-index: 1;">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
           <button
@@ -102,7 +102,29 @@
       <div class="row">
         <div class="col-sm">
           <div class="row">
-            <div class="col d-flex justify-content-center align-self-center">
+            <div class="col-sm-1 border border-dark d-flex justify-content-center align-items-center" style="width: 6rem; height: 5.5rem;">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                fill="currentColor"
+                class="bi bi-box-seam"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2zm3.564 1.426L5.596 5 8 5.961 14.154 3.5zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z"
+                />
+              </svg>
+            </div>
+            <div class="col-sm">
+              <p>Lorem, ipsum.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="row">
+            <div class="col-sm-1 border border-dark d-flex justify-content-center align-items-center" style="width: 6rem; height: 5.5rem;">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="50"
@@ -124,29 +146,7 @@
         </div>
         <div class="col-sm">
           <div class="row">
-            <div class="col d-flex justify-content-center align-self-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="50"
-                height="50"
-                fill="currentColor"
-                class="bi bi-box-seam"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2zm3.564 1.426L5.596 5 8 5.961 14.154 3.5zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z"
-                />
-              </svg>
-            </div>
-            <div class="col">
-              <p>Lorem, ipsum.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm">
-          <div class="row">
-            <div class="col d-flex justify-content-center align-self-center">
+            <div class="col-sm-1 border border-dark d-flex justify-content-center align-items-center" style="width: 6rem; height: 5.5rem;">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="50"
@@ -175,7 +175,7 @@
 
     <div class="container">
       <div class="row ">
-        <div class="col-sm-6">
+        <div class="col-sm-6 d-flex flex-column gap-3">
           <p class="text-uppercase">who we are</p>
           <h1>Unleashing Potential with Creative Strategy</h1>
           <i
@@ -220,26 +220,26 @@
                 style="width: 100%; height: auto"
                 src="./Resimler/1photo.jpg"
                 alt="calısma"
-              />
+             class="rounded" />
             </div>
             <div class="col">
               <img
                 style="width: 100%; height: auto"
                 src="./Resimler/2photo.jpg"
                 alt="anlama"
-              />
+             class="rounded" />
               <img
                 style="width: 100%; height: auto"
                 src="./Resimler/3photo.jpg"
                 alt="sonuc"
-              />
+            class="rounded mt-4"  />
             </div>
           </div>
         </div>
       </div>
 <div class="container">
 <div class="row">
-  <div class="col d-flex justify-content-between">
+  <div class="col d-flex justify-content-between p-5">
   <img style="width: 6rem; height: auto;" src="./Resimler/myob.png" class="img-thumbnail" alt="myob">
   <img style="width: 6rem; height: auto;"  src="./Resimler/belimo.png " class="img-thumbnail" alt="belimo">
   <img style="width: 6rem; height: auto;" src="./Resimler/lifegroups.png" class="img-thumbnail" alt="lifegroups">
@@ -259,16 +259,16 @@
 
 <div class="container">
   <div class="row">
-  <div class="col-sm-6">
+  <div class="col-sm-5 d-flex flex-column gap-2">
     <div class="col-sm">
-      <div class="row">
-        <div class="col d-flex justify-content-center ">
-          <svg
+      <div class="row border border-dark p-3">
+        <div class="col-sm-2 border border-dark d-flex rounded-circle p-2 shadow p-2 mb-5 bg-white rounded" style="width: fit-content; height: fit-content; ">
+          <svg 
             xmlns="http://www.w3.org/2000/svg"
-            width="50"
-            height="50"
+            width="25"
+            height="25"
             fill="currentColor"
-            class="bi bi-box-seam"
+            class="bi bi-box-seam "
             viewBox="0 0 16 16"
           >
             <path
@@ -276,19 +276,19 @@
             />
           </svg>
         </div>
-        <div class="col">
-          <p>Lorem, ipsum.</p>
+        <div class="col-sm">
+          <p class="lh-1">Lorem, ipsum.</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere repellendus optio nobis asperiores id consequatur tempora.</p>
         </div>
       </div>
     </div>
-    <div class="col-sm">
-      <div class="row">
-        <div class="col d-flex justify-content-center ">
+    <div class="col-sm ">
+      <div class="row border border-dark p-3">
+        <div class="col-sm-2 border border-dark d-flex rounded-circle p-2 shadow p-2 mb-5 bg-white rounded" style="width: fit-content; height: fit-content; ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="50"
-            height="50"
+            width="25"
+            height="25"
             fill="currentColor"
             class="bi bi-box-seam"
             viewBox="0 0 16 16"
@@ -298,19 +298,19 @@
             />
           </svg>
         </div>
-        <div class="col">
+        <div class="col-sm">
           <p>Lorem, ipsum.</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse ullam rerum maiores eius eos facere consequatur!</p>
         </div>
       </div>
     </div>
     <div class="col-sm">
-      <div class="row">
-        <div class="col d-flex justify-content-center">
+      <div class="row border border-dark p-3">
+        <div class="col-sm-2 d-flex border border-dark d-flex rounded-circle p-2 shadow p-1 mb-5 bg-white rounded" style="width: fit-content; height: fit-content;" >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="50"
-            height="50"
+            width="25"
+            height="25"
             fill="currentColor"
             class="bi bi-box-seam"
             viewBox="0 0 16 16"
@@ -336,11 +336,11 @@
     <div class="container">
       <div class="row">
         <div class="col  ">
-          <img src="./Resimler/telefon.jpg" alt="telefon" />
+          <img src="./Resimler/telefon.jpg" alt="telefon" class="rounded" style="width: 100%; height: auto;" />
         </div>
         <div class="col  d-flex justify-content-center align-items-center">
-          <div class="card ">
-            <div class="card-body ">
+          <div class="card" style=" width: 31rem;">
+            <div class="card-body">
               <h5 class="card-title">SCorporis temporibus maiores provident</h5>
               <p class="card-text">
                 Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
@@ -502,8 +502,8 @@
 <div class="card" style="width: 33rem;">
   <div class="row">
 
-  <div class="col-sm-2 d-flex justify-content-center rounded border-primary align-items-center "  style="border: 1px solid;">
-  <svg  xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-brightness-high-fill" viewBox="0 0 16 16">
+  <div class="col-sm-2 d-flex border border-dark rounded"  style="padding: 1rem; width: fit-content; height: fit-content;">
+  <svg  xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-brightness-high-fill" viewBox="0 0 16 16">
     <path d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/>
   </svg></div>
 
@@ -607,16 +607,16 @@ Lorem Ipsum</h5>
       <div class="card-body d-flex flex-column gap-2">
         <h5 class="card-title">Special title treatment</h5>
         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text">0<sub>/mont</sub></p>
+        <p class="card-text"><sup>$</sup>0<sub>/mont</sub></p>
         <a href="#" class="btn btn-primary">Go somewhere</a>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        <p class="text-center" ><small class="text-body-secondary">Last updated 3 mins ago</small></p>
         <p class="card-text">Quam adipiscing vitae proin</p>
         <p class="card-text">Nec feugiat nisl pretium</p>
         <p class="card-text">Nulla at volutpat diam uteera</p> 
-        <p class="text-decoration-line-through">Pharetra massa massa ultricies</p>
-        <p class="text-decoration-line-through">Massa ultricies mi quis hendrerit</p>
-        <p class="text-decoration-line-through">This text has a line going through it.</p>
-        <p class="text-decoration-line-through">Iure nihil dolores recusandae odit voluptatibus.</p>
+        <p class="text-decoration-line-through"> X Pharetra massa massa ultricies</p>
+        <p class="text-decoration-line-through"> X Massa ultricies mi quis hendrerit</p>
+        <p class="text-decoration-line-through"> X This text has a line going through it.</p>
+        <p class="text-decoration-line-through"> X Iure nihil dolores recusandae odit voluptatibus.</p>
 
       </div>
     </div>
@@ -626,16 +626,16 @@ Lorem Ipsum</h5>
       <div class="card-body d-flex flex-column gap-2">
         <h5 class="card-title">Special title treatment</h5>
         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text">0<sub>/mont</sub></p>
+        <p class="card-text"><sup>$</sup>0<sub>/mont</sub></p>
         <a href="#" class="btn btn-primary">Go somewhere</a>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        <p class="text-center"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
         <p class="card-text">Quam adipiscing vitae proin</p>
         <p class="card-text">Nec feugiat nisl pretium</p>
         <p class="card-text">Nulla at volutpat diam uteera</p>
         <p class="card-text">Pharetra massa massa ultricies</p>
         <p class="card-text">Massa ultricies mi quis hendrerit</p>
         <p class="text-decoration-line-through">Voluptate id voluptas qui sed aperiam rerum</p>
-        <p class="text-decoration-line-through">Iure nihil dolores recusandae odit voluptatibus.</p>
+        <p class="text-decoration-line-through">X  Iure nihil dolores recusandae odit voluptatibus.</p>
         
 
       
@@ -647,16 +647,16 @@ Lorem Ipsum</h5>
       <div class="card-body d-flex flex-column gap-2">
         <h5 class="card-title">Special title treatment</h5>
         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text">0<sub>/mont</sub></p>
+        <p class="card-text"><sup>$</sup>0<sub>/mont</sub></p>
         <a href="#" class="btn btn-primary">Go somewhere</a>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-        <p class="card-text">Quam adipiscing vitae proin</p>
-        <p class="card-text">Nec feugiat nisl pretium</p>
-        <p class="card-text">Nulla at volutpat diam uteera</p>
-        <p class="card-text">Pharetra massa massa ultricies</p>
-        <p class="card-text">Massa ultricies mi quis hendrerit</p>
-        <p class="card-text">Voluptate id voluptas qui sed aperiam rerum</p>
-        <p class="card-text ">Iure nihil dolores recusandae odit voluptatibus.</p>
+        <p class="text-center"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        <p class="card-text"><span>✓</span>  Quam adipiscing vitae proin</p>
+        <p class="card-text"><span>✓</span>  Nec feugiat nisl pretium</p>
+        <p class="card-text"><span>✓</span>  Nulla at volutpat diam uteera</p>
+        <p class="card-text"><span>✓</span>  Pharetra massa massa ultricies</p>
+        <p class="card-text"><span>✓</span>  Massa ultricies mi quis hendrerit</p>
+        <p class="card-text"><span>✓</span>  Voluptate id voluptas qui sed aperiam rerum</p>
+        <p class="card-text"><span>✓</span>  Iure nihil dolores recusandae odit voluptatibus. </p>
         
 
       
