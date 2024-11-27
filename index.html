@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div
@@ -17,10 +17,7 @@
         background-image: url(https://themewagon.github.io/QuickStart/assets/img/hero-services-img.);
       "
     >
-      <nav
-        class="navbar navbar-expand-lg bg-body-tertiary position-fixed"
-        style="z-index: 1"
-      >
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" style="z-index: 1">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
           <button
@@ -86,88 +83,132 @@
       </nav>
     </div>
 
-    <div class="container d-flex flex-column mb-3 justify-content-center">
-      <div class="fw-2">Welcome to QuickStart</div>
-      <div class="p-2">
-        Quickly start your project now and set the stage for success
+    <div class="container">
+      <div class="p-2 text-center">
+        <h1 class="text-center">
+          Welcome to <span style="color: #388da8"> QuickStart </span>
+        </h1>
+
+        <p class="text-center">
+          Quickly start your project now and set the stage for success
+        </p>
       </div>
-      <button type="button" class="btn btn-primary">Get Stardet</button>
+      <div class="d-flex justify-content-center align-items-center gap-2">
+        <button
+          type="button"
+          class="btn btn-primary rounded-pill"
+          style="width: fit-content"
+        >
+          Get Stardet
+        </button>
+        <a href="#" style="text-decoration: none; color: black">
+          <svg
+            style="color: #388da8"
+            xmlns="http://www.w3.org/2000/svg"
+            width="35"
+            height="35"
+            fill="currentColor"
+            class="bi bi-fast-forward-circle"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+            />
+            <path
+              d="M4.271 5.055a.5.5 0 0 1 .52.038L8 7.386V5.5a.5.5 0 0 1 .79-.407l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 8 10.5V8.614l-3.21 2.293A.5.5 0 0 1 4 10.5v-5a.5.5 0 0 1 .271-.445"
+            /></svg
+          >Watch Video
+        </a>
+      </div>
     </div>
 
-    <div class="container-sm bg-secondary pt-5 pb-5">
-      <div class="row">
-        <div class="col-sm">
-          <div class="row">
-            <div
-              class="col-sm-1 border border-dark d-flex justify-content-center align-items-center"
-              style="width: 6rem; height: 5.5rem"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="50"
-                height="50"
-                fill="currentColor"
-                class="bi bi-box-seam"
-                viewBox="0 0 16 16"
+    <div class="container d-flex justify-content-center">
+      <img
+        class="text-center"
+        style="width: 50%; height: auto; text-center"
+        src="./Resimler/bilgisayarbasındakikiz.webp"
+        alt="bilgisayarbasındakikiz"
+      />
+    </div>
+    <div style="background-color: #f4fcff">
+      <div class="container-sm pt-5 pb-5">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="row">
+              <div
+                class="col-sm- d-flex justify-content-center align-items-center"
+                style="width: 6rem; height: 5.5rem; background-color: #c1cff338"
               >
-                <path
-                  d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2zm3.564 1.426L5.596 5 8 5.961 14.154 3.5zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z"
-                />
-              </svg>
-            </div>
-            <div class="col-sm">
-              <p>Lorem, ipsum.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <svg
+                  style="color: #388da8"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="50"
+                  height="50"
+                  fill="currentColor"
+                  class="bi bi-box-seam"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2zm3.564 1.426L5.596 5 8 5.961 14.154 3.5zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z"
+                  />
+                </svg>
+              </div>
+              <div class="col-sm">
+                <p>Lorem, ipsum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm">
-          <div class="row">
-            <div
-              class="col-sm-1 border border-dark d-flex justify-content-center align-items-center"
-              style="width: 6rem; height: 5.5rem"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="50"
-                height="50"
-                fill="currentColor"
-                class="bi bi-box-seam"
-                viewBox="0 0 16 16"
+          <div class="col-sm-4">
+            <div class="row">
+              <div
+                class="col-sm-1 d-flex justify-content-center align-items-center"
+                style="width: 6rem; height: 5.5rem; background-color: #c1cff338"
               >
-                <path
-                  d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2zm3.564 1.426L5.596 5 8 5.961 14.154 3.5zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z"
-                />
-              </svg>
-            </div>
-            <div class="col">
-              <p>Lorem, ipsum.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <svg
+                  style="color: #388da8"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="50"
+                  height="50"
+                  fill="currentColor"
+                  class="bi bi-box-seam"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2zm3.564 1.426L5.596 5 8 5.961 14.154 3.5zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z"
+                  />
+                </svg>
+              </div>
+              <div class="col">
+                <p>Lorem, ipsum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm">
-          <div class="row">
-            <div
-              class="col-sm-1 border border-dark d-flex justify-content-center align-items-center"
-              style="width: 6rem; height: 5.5rem"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="50"
-                height="50"
-                fill="currentColor"
-                class="bi bi-box-seam"
-                viewBox="0 0 16 16"
+          <div class="col-sm-4">
+            <div class="row">
+              <div
+                class="col-sm-1 d-flex justify-content-center align-items-center"
+                style="width: 6rem; height: 5.5rem; background-color: #c1cff338"
               >
-                <path
-                  d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2zm3.564 1.426L5.596 5 8 5.961 14.154 3.5zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z"
-                />
-              </svg>
-            </div>
-            <div class="col">
-              <p>Lorem, ipsum.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <svg
+                  style="color: #388da8"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="50"
+                  height="50"
+                  fill="currentColor"
+                  class="bi bi-box-seam"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2zm3.564 1.426L5.596 5 8 5.961 14.154 3.5zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z"
+                  />
+                </svg>
+              </div>
+              <div class="col">
+                <p>Lorem, ipsum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -281,7 +322,7 @@
         <div class="col d-flex justify-content-between p-5">
           <img
             class="imgesler"
-            style="width: 6rem; height: auto; filter: grayscale(100%)"
+            style="width: 6rem; height: auto; filter: grayscale(1)"
             src="./Resimler/myob.png"
             class="img-thumbnail border border-white"
             alt="myob"
@@ -329,12 +370,13 @@
       <div class="row d-flex justify-content-between">
         <div class="col-sm-5 d-flex flex-column gap-2">
           <div class="col-sm">
-            <div class="row border border-dark p-3">
+            <div class="row p-3 rounded" style="background-color: #f7fcff">
               <div
-                class="col-sm-2 border border-dark d-flex rounded-circle p-2 shadow p-2 mb-5 bg-white rounded"
+                class="col-sm-2 d-flex rounded-circle p-2 shadow-sm p-3 mb-5 bg-body rounded"
                 style="width: fit-content; height: fit-content"
               >
                 <svg
+                  style="color: #388da8"
                   xmlns="http://www.w3.org/2000/svg"
                   width="25"
                   height="25"
@@ -358,12 +400,13 @@
             </div>
           </div>
           <div class="col-sm">
-            <div class="row border border-dark p-3">
+            <div class="row p-3 rounded" style="background-color: #f7fcff">
               <div
-                class="col-sm-2 border border-dark d-flex rounded-circle p-2 shadow p-2 mb-5 bg-white rounded"
+                class="col-sm-2 d-flex rounded-circle p-2 shadow-sm p-3 mb-5 bg-body rounded"
                 style="width: fit-content; height: fit-content"
               >
                 <svg
+                  style="color: #388da8"
                   xmlns="http://www.w3.org/2000/svg"
                   width="25"
                   height="25"
@@ -387,12 +430,13 @@
             </div>
           </div>
           <div class="col-sm">
-            <div class="row border border-dark p-3">
+            <div class="row p-3 rounded" style="background-color: #f7fcff">
               <div
-                class="col-sm-2 d-flex border border-dark d-flex rounded-circle p-2 shadow p-1 mb-5 bg-white rounded"
+                class="col-sm-2 d-flex d-flex rounded-circle p-2 shadow-sm p-3 mb-5 bg-body rounded"
                 style="width: fit-content; height: fit-content"
               >
                 <svg
+                  style="color: #388da8"
                   xmlns="http://www.w3.org/2000/svg"
                   width="25"
                   height="25"
@@ -429,7 +473,7 @@
 
     <div class="container pt-5 pb-5">
       <div class="row">
-        <div class="col">
+        <div class="col-sm-6">
           <img
             src="./Resimler/telefon.jpg"
             alt="telefon"
@@ -437,11 +481,19 @@
             style="width: 100%; height: auto"
           />
         </div>
-        <div class="col d-flex justify-content-center align-items-center">
-          <div class="card" style="width: 31rem">
-            <div class="card-body">
+        <div class="col d-flex justify-content-end align-items-center">
+          <div
+            class="card"
+            style="
+              width: 25rem;
+              background-color: #f7fcff;
+              border: none;
+              font-size: large;
+            "
+          >
+            <div class="card-body p-4">
               <h5 class="card-title">SCorporis temporibus maiores provident</h5>
-              <p class="card-text">
+              <p class="card-text text-body-secondary">
                 Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
                 aute irure dolor in reprehenderit in voluptate velit esse cillum
                 dolore eu fugiat nulla pariatur. Excepteur sint occaecat
@@ -457,17 +509,18 @@
     <div class="container pt-5 pb-5">
       <div class="row">
         <div class="col-sm-6 d-flex justify-content-center align-items-center">
-          <div class="card" style="width: 25rem">
-            <div class="card-body">
+          <div class="card border-0" style="width: 25rem">
+            <div class="card-body" style="background-color: #f7fcff">
               <h5 class="card-title">
                 Neque ipsum omnis sapiente quod quia dicta
               </h5>
-              <p class="card-text">
+              <p class="card-text text-body-secondary">
                 Quidem qui dolore incidunt aut. In assumenda harum id iusto
                 lorena plasico mares
               </p>
               <p class="card-text">
                 <svg
+                  style="color: #388da8"
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
@@ -477,11 +530,15 @@
                 >
                   <path
                     d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"
-                  /></svg
-                >Et corporis ea eveniet ducimus.
+                  />
+                </svg>
+                <span class="text-body-secondary">
+                  Et corporis ea eveniet ducimus.</span
+                >
               </p>
               <p class="card-text">
                 <svg
+                  style="color: #388da8"
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
@@ -491,22 +548,27 @@
                 >
                   <path
                     d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"
-                  /></svg
-                >  Exercitationem dolorem sapiente.
+                  />
+                </svg>
+                <span class="text-body-secondary">
+                  Exercitationem dolorem sapiente.</span
+                >
               </p>
               <p class="card-text">
                 <svg
+                  style="color: #388da8"
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
                   fill="currentColor"
-                  class="bi bi-brightness-high-fill text-primary"
+                  class="bi bi-brightness-high-fill"
                   viewBox="0 0 16 16"
                 >
                   <path
                     d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"
-                  /></svg
-                >Veniam quia modi magnam.
+                  />
+                </svg>
+                <span class="text-secondary"> Veniam quia modi magnam.</span>
               </p>
               <a href="#" class="btn btn-primary">Learn More</a>
             </div>
@@ -523,241 +585,327 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6 d-flex flex-column gap-5">
-          <div class="container"  class="cardshodaw" style="width: 33rem">
-            <div class="row border border-1 p-4">
-              <div
-                class="col-sm-2 border border-primary p-3 rounded"
-                style="
-                  border: 1px solid;
-                  width: fit-content;
-                  height: fit-content;
-                "
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="30"
-                  fill="currentColor"
-                  class="bi bi-brightness-high-fill"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"
-                  />
-                </svg>
-              </div>
 
-              <div class="col-sm-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" class="card-link text-decoration-none"
-                    >Card link</a
+
+    <div class="p-5" style="background-color: #f7fcff">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 d-flex flex-column gap-5">
+            <div class="container" id="cardshodaw" style="width: 33rem">
+              <div class="row border border-1 p-4 rounded bg-white">
+                <div
+                  class="col-sm-2 border border-primary p-3 rounded"
+                  style="width: fit-content; height: fit-content; background-color: #c1daff;"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    fill="currentColor"
+                    class="bi bi-brightness-high-fill text-primary"
+                    viewBox="0 0 16 16"
                   >
+                    <path
+                      d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"
+                    />
+                  </svg>
+                </div>
+
+                <div class="col-sm-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="card-link text-decoration-none"
+                      >Card link
+                      <svg
+                        style="margin-bottom: 1px"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-arrow-right"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container" id="cardshodaw" style="width: 33rem">
+              <div class="row border border-1 p-4 rounded bg-white">
+                <div
+                  class="col-sm-2 border border-primary p-3 rounded"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    background-color: #c1daff;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    fill="currentColor"
+                    class="bi bi-brightness-high-fill text-primary"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"
+                    />
+                  </svg>
+                </div>
+
+                <div class="col-sm-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="card-link text-decoration-none"
+                      >Card link
+                      <svg
+                        style="margin-bottom: 1px"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-arrow-right"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                        /></svg
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container" id="cardshodaw" style="width: 33rem">
+              <div class="row border border-1 p-4 rounded bg-white">
+                <div
+                  class="col-sm-2 border border-primary p-3 rounded"
+                  style="
+                    background-color: #c1daff;
+                    width: fit-content;
+                    height: fit-content;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    fill="currentColor"
+                    class="bi bi-brightness-high-fill text-primary"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"
+                    />
+                  </svg>
+                </div>
+
+                <div class="col-sm-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="card-link text-decoration-none"
+                      >Card link
+                      <svg
+                        style="margin-bottom: 1px"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-arrow-right"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                        />
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="container"  class="cardshodaw" style="width: 33rem">
-            <div class="row border border-1 p-4">
-              <div
-                class="col-sm-2 border border-primary p-3 rounded"
-                style="
-                  border: 1px solid;
-                  width: fit-content;
-                  height: fit-content;
-                "
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="30"
-                  fill="currentColor"
-                  class="bi bi-brightness-high-fill"
-                  viewBox="0 0 16 16"
+          <div class="col-sm-6 d-flex flex-column gap-5">
+            <div class="container" id="cardshodaw" style="width: 33rem">
+              <div class="row border border-1 p-4 rounded bg-white">
+                <div
+                  class="col-sm-2 border border-primary p-3 rounded"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    background-color: #c1daff;
+                  "
                 >
-                  <path
-                    d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"
-                  />
-                </svg>
-              </div>
-
-              <div class="col-sm-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" class="card-link text-decoration-none"
-                    >Card link</a
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    fill="currentColor"
+                    class="bi bi-brightness-high-fill text-primary"
+                    viewBox="0 0 16 16"
                   >
+                    <path
+                      d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"
+                    />
+                  </svg>
+                </div>
+
+                <div class="col-sm-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="card-link text-decoration-none"
+                      >Card link
+                      <svg
+                        style="margin-bottom: 1px"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-arrow-right"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                        /></svg
+                    ></a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="container"  class="cardshodaw" style="width: 33rem">
-            <div class="row border border-1 p-4">
+            <div class="container" id="cardshodaw" style="width: 33rem">
               <div
-                class="col-sm-2 border border-primary p-3 rounded"
-                style="
-                  border: 1px solid;
-                  width: fit-content;
-                  height: fit-content;
-                "
+                class="row border border-1 p-4 rounded"
+                style="background-color: #f7fcff"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="30"
-                  fill="currentColor"
-                  class="bi bi-brightness-high-fill"
-                  viewBox="0 0 16 16"
+                <div
+                  class="col-sm-2 border border-primary p-3 rounded"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    background-color: #c1daff;
+                  "
                 >
-                  <path
-                    d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"
-                  />
-                </svg>
-              </div>
-
-              <div class="col-sm-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" class="card-link text-decoration-none"
-                    >Card link</a
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    fill="currentColor"
+                    class="bi bi-brightness-high-fill text-primary"
+                    viewBox="0 0 16 16"
                   >
+                    <path
+                      d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"
+                    />
+                  </svg>
+                </div>
+
+                <div class="col-sm-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="card-link text-decoration-none"
+                      >Card link
+                      <svg
+                        style="margin-bottom: 1px"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-arrow-right"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                        /></svg
+                    ></a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <div class="col-sm-6 d-flex flex-column gap-5">
-          <div class="container" style="width: 33rem">
-            <div class="row border border-1 p-4">
+            <div class="container" id="cardshodaw" style="width: 33rem">
               <div
-                class="col-sm-2 border border-primary p-3 rounded"
-                style="
-                  border: 1px solid;
-                  width: fit-content;
-                  height: fit-content;
-                "
+                class="row border border-1 p-4 rounded"
+                style="background-color: #f7fcff"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="30"
-                  fill="currentColor"
-                  class="bi bi-brightness-high-fill"
-                  viewBox="0 0 16 16"
+                <div
+                  class="col-sm-2 border border-primary p-3 rounded"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    background-color:#c1daff;
+                  "
                 >
-                  <path
-                    d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"
-                  />
-                </svg>
-              </div>
-
-              <div class="col-sm-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" class="card-link text-decoration-none"
-                    >Card link</a
+                  <svg
+                    style="color: #388da8"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    fill="currentColor"
+                    class="bi bi-brightness-high-fill text-primary"
+                    viewBox="0 0 16 16"
                   >
+                    <path
+                      d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"
+                    />
+                  </svg>
                 </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="container"  class="cardshodaw" style="width: 33rem">
-            <div class="row border border-1 p-4">
-              <div
-                class="col-sm-2 border border-primary p-3 rounded"
-                style="
-                  border: 1px solid;
-                  width: fit-content;
-                  height: fit-content;
-                  background-color: #85c8ff;
-                "
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="30"
-                  fill="currentColor"
-                  class="bi bi-brightness-high-fill text-light"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"
-                  />
-                </svg>
-              </div>
-
-              <div class="col-sm-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" class="card-link text-decoration-none"
-                    >Card link</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="container"   id="cardshodaw" style="width: 33rem">
-            <div class="row border border-1 p-4">
-              <div
-                class="col-sm-2 border border-primary p-3 rounded"
-                style="
-                  border: 1px solid;
-                  width: fit-content;
-                  height: fit-content;
-                "
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="30"
-                  fill="currentColor"
-                  class="bi bi-brightness-high-fill"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"
-                  />
-                </svg>
-              </div>
-
-              <div class="col-sm-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" class="card-link text-decoration-none"
-                    >Card link</a
-                  >
+                <div class="col-sm-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="card-link text-decoration-none"
+                      >Card link
+                      <svg
+                        style="margin-bottom: 1px"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-arrow-right"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                        /></svg
+                    ></a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -895,7 +1043,7 @@
               <p class="card-text fs-1">
                 <sup>$</sup>0<sub class="text-body-secondary fs-5">/mont</sub>
               </p>
-              <a href="#" class="btn btn-outline-primary border border-dark"
+              <a id="buttons" href="#" class="btn btn-outline-primary border border-dark"
                 >Go somewhere</a
               >
               <p class="text-center">
@@ -938,7 +1086,8 @@
           </div>
         </div>
         <div class="col-sm-4">
-          <div class="card">
+          <div class="card" style="position: relative;">
+            <button id="buttonpopuler" style="width: fit-content; height:fit-content;">populer</button>
             <div class="card-body d-flex flex-column gap-2">
               <h5 class="card-title">Special title treatment</h5>
               <p class="card-text">
@@ -990,7 +1139,7 @@
               <p class="card-text fs-1">
                 <sup>$</sup>49<sub class="text-body-secondary fs-5">/mont</sub>
               </p>
-              <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+              <a id="buttons" href="#" class="btn btn-outline-primary">Go somewhere</a>
               <p class="text-center">
                 <small class="text-body-secondary"
                   >Last updated 3 mins ago</small
@@ -1193,70 +1342,138 @@
       </div>
     </div>
 
-
-
-
-
-
     <!-- TESTIMONIALS -->
-<section class="testimonials">
-	<div class="container">
-
-      <div class="row">
-        <div class="col-sm-12">
-          <div id="customers-testimonials" class="owl-carousel">
-
-            <!--TESTIMONIAL 1 -->
-            <div class="item">
-              <div class="shadow-effect">
-                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
-                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+    <section class="testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div id="customers-testimonials" class="owl-carousel">
+              <!--TESTIMONIAL 1 -->
+              <div class="item">
+                <div class="shadow-effect">
+                  <img
+                    class="img-circle"
+                    src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
+                    alt=""
+                  />
+                  <p>
+                    Dramatically maintain clicks-and-mortar solutions without
+                    functional solutions. Completely synergize resource taxing
+                    relationships via premier niche markets. Professionally
+                    cultivate.
+                  </p>
+                </div>
+                <div class="testimonial-name">EMILIANO AQUILANI</div>
               </div>
-              <div class="testimonial-name">EMILIANO AQUILANI</div>
-            </div>
-            <!--END OF TESTIMONIAL 1 -->
-            <!--TESTIMONIAL 2 -->
-            <div class="item">
-              <div class="shadow-effect">
-                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
-                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+              <!--END OF TESTIMONIAL 1 -->
+              <!--TESTIMONIAL 2 -->
+              <div class="item">
+                <div class="shadow-effect">
+                  <img
+                    class="img-circle"
+                    src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
+                    alt=""
+                  />
+                  <p>
+                    Dramatically maintain clicks-and-mortar solutions without
+                    functional solutions. Completely synergize resource taxing
+                    relationships via premier niche markets. Professionally
+                    cultivate.
+                  </p>
+                </div>
+                <div class="testimonial-name">ANNA ITURBE</div>
               </div>
-              <div class="testimonial-name">ANNA ITURBE</div>
-            </div>
-            <!--END OF TESTIMONIAL 2 -->
-            <!--TESTIMONIAL 3 -->
-            <div class="item">
-              <div class="shadow-effect">
-                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
-                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+              <!--END OF TESTIMONIAL 2 -->
+              <!--TESTIMONIAL 3 -->
+              <div class="item">
+                <div class="shadow-effect">
+                  <img
+                    class="img-circle"
+                    src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
+                    alt=""
+                  />
+                  <p>
+                    Dramatically maintain clicks-and-mortar solutions without
+                    functional solutions. Completely synergize resource taxing
+                    relationships via premier niche markets. Professionally
+                    cultivate.
+                  </p>
+                </div>
+                <div class="testimonial-name">LARA ATKINSON</div>
               </div>
-              <div class="testimonial-name">LARA ATKINSON</div>
-            </div>
-            <!--END OF TESTIMONIAL 3 -->
-            <!--TESTIMONIAL 4 -->
-            <div class="item">
-              <div class="shadow-effect">
-                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
-                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+              <!--END OF TESTIMONIAL 3 -->
+              <!--TESTIMONIAL 4 -->
+              <div class="item">
+                <div class="shadow-effect">
+                  <img
+                    class="img-circle"
+                    src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
+                    alt=""
+                  />
+                  <p>
+                    Dramatically maintain clicks-and-mortar solutions without
+                    functional solutions. Completely synergize resource taxing
+                    relationships via premier niche markets. Professionally
+                    cultivate.
+                  </p>
+                </div>
+                <div class="testimonial-name">IAN OWEN</div>
               </div>
-              <div class="testimonial-name">IAN OWEN</div>
-            </div>
-            <!--END OF TESTIMONIAL 4 -->
-            <!--TESTIMONIAL 5 -->
-            <div class="item">
-              <div class="shadow-effect">
-                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
-                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+              <!--END OF TESTIMONIAL 4 -->
+              <!--TESTIMONIAL 5 -->
+              <div class="item">
+                <div class="shadow-effect">
+                  <img
+                    class="img-circle"
+                    src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
+                    alt=""
+                  />
+                  <p>
+                    Dramatically maintain clicks-and-mortar solutions without
+                    functional solutions. Completely synergize resource taxing
+                    relationships via premier niche markets. Professionally
+                    cultivate.
+                  </p>
+                </div>
+                <div class="testimonial-name">MICHAEL TEDDY</div>
               </div>
-              <div class="testimonial-name">MICHAEL TEDDY</div>
+              <!--END OF TESTIMONIAL 5 -->
             </div>
-            <!--END OF TESTIMONIAL 5 -->
           </div>
         </div>
       </div>
-      </div>
     </section>
     <!-- END OF TESTIMONIALS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    >
+
+      jQuery(document).ready(function($) {
+              		"use strict";
+              		//  TESTIMONIALS CAROUSEL HOOK
+      		        $('#customers-testimonials').owlCarousel({
+      		            loop: true,
+      		            center: true,
+      		            items: 3,
+      		            margin: 0,
+      		            autoplay: true,
+      		            dots:true,
+      		            autoplayTimeout: 8500,
+      		            smartSpeed: 450,
+      		            responsive: {
+      		              0: {
+      		                items: 1
+      		              },
+      		              768: {
+      		                items: 2
+      		              },
+      		              1170: {
+      		                items: 3
+      		              }
+      		            }
+      		        });
+              	});
+    </script>
   </body>
 </html>
