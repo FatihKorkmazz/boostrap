@@ -64,9 +64,12 @@
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Action</a></li>
                   <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <lu class="dropdown-meun">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                  </lu>
+                  <li class="dropdown-meun">
+                    <ul>
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                  </li>
+
                   <li>
                     <a class="dropdown-item" href="#">Something else here</a>
                   </li>
@@ -97,7 +100,12 @@
         <button
           type="button"
           class="btn btn-primary rounded-pill"
-          style="width: fit-content"
+          style="
+            width: fit-content;
+            background-color: #388da8;
+            border: 1px solid #388da8;
+            padding: 8px 30px;
+          "
         >
           Get Stardet
         </button>
@@ -132,15 +140,21 @@
     </div>
     <div style="background-color: #f4fcff">
       <div class="container-sm pt-5 pb-5">
-        <div class="row">
+        <div class="row" style="transition: 1ms">
           <div class="col-sm-4">
-            <div class="row">
+            <div class="row" id="box">
               <div
+                id="boxsvg"
                 class="col-sm- d-flex justify-content-center align-items-center"
-                style="width: 6rem; height: 5.5rem; background-color: #c1cff338"
+                style="
+                  width: 6rem;
+                  height: 5.5rem;
+                  background-color: #c1cff338;
+                  transition: 1s;
+                "
               >
                 <svg
-                  style="color: #388da8"
+                  style="color: #388da8; transition: 0.5s"
                   xmlns="http://www.w3.org/2000/svg"
                   width="50"
                   height="50"
@@ -154,16 +168,24 @@
                 </svg>
               </div>
               <div class="col-sm">
-                <p>Lorem, ipsum.</p>
+                <p class="fw-bold" id="boxp" style="transition: 0.5s">
+                  Lorem, ipsum.
+                </p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               </div>
             </div>
           </div>
           <div class="col-sm-4">
-            <div class="row">
+            <div class="row" id="box">
               <div
+                id="boxsvg"
                 class="col-sm-1 d-flex justify-content-center align-items-center"
-                style="width: 6rem; height: 5.5rem; background-color: #c1cff338"
+                style="
+                  width: 6rem;
+                  height: 5.5rem;
+                  background-color: #c1cff338;
+                  transition: 1s;
+                "
               >
                 <svg
                   style="color: #388da8"
@@ -180,16 +202,24 @@
                 </svg>
               </div>
               <div class="col">
-                <p>Lorem, ipsum.</p>
+                <p class="fw-bold" id="boxp" style="transition: 0.5s">
+                  Lorem, ipsum.
+                </p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               </div>
             </div>
           </div>
           <div class="col-sm-4">
-            <div class="row">
+            <div class="row" id="box">
               <div
+                id="boxsvg"
                 class="col-sm-1 d-flex justify-content-center align-items-center"
-                style="width: 6rem; height: 5.5rem; background-color: #c1cff338"
+                style="
+                  width: 6rem;
+                  height: 5.5rem;
+                  background-color: #c1cff338;
+                  transition: 1s;
+                "
               >
                 <svg
                   style="color: #388da8"
@@ -206,7 +236,9 @@
                 </svg>
               </div>
               <div class="col">
-                <p>Lorem, ipsum.</p>
+                <p class="fw-bold" id="boxp" style="transition: 0.5s">
+                  Lorem, ipsum.
+                </p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               </div>
             </div>
@@ -215,10 +247,10 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container py-5">
       <div class="row">
         <div class="col-sm-6 d-flex flex-column gap-3">
-          <p class="text-uppercase">who we are</p>
+          <span class="text-uppercase text-body-secondary">who we are</span>
           <h1>Unleashing Potential with Creative Strategy</h1>
           <i
             >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -227,52 +259,81 @@
 
           <div>
             <p>
-              <span
-                style="
-                  border: 1px solid blue;
-                  border-radius: 50%;
-                  padding: 2px 4px;
-                  color: blue;
-                "
-                >✓</span
-              >
+              <span style="color: #388da8"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-check-circle"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+                  />
+                  <path
+                    d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"
+                  /></svg
+              ></span>
               Ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
             <p>
-              <span
-                style="
-                  border: 1px solid blue;
-                  border-radius: 50%;
-                  padding: 2px 4px;
-                  color: blue;
-                "
-                >✓</span
-              >
+              <span style="color: #388da8"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-check-circle"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+                  />
+                  <path
+                    d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"
+                  /></svg
+              ></span>
               Duis aute irure dolor in reprehenderit in voluptate velit.
             </p>
             <p>
-              <span
-                style="
-                  border: 1px solid blue;
-                  border-radius: 50%;
-                  padding: 2px 4px;
-                  color: blue;
-                "
-                >✓</span
-              >
+              <span style="color: #388da8"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-check-circle"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+                  />
+                  <path
+                    d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"
+                  /></svg
+              ></span>
               Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
               irure dolor in reprehenderit in voluptate trideta storacalaperda
-              mastiro dolore eu fugiat nulla pariatur. Read More
+              mastiro dolore eu fugiat nulla pariatur.
             </p>
           </div>
 
           <button
-            style="width: fit-content"
+            id="buttonarrow-rightup"
+            style="
+              border: #388da8;
+              width: fit-content;
+              background-color: #388da8;
+              padding: 0.75rem 2rem;
+            "
             type="button"
             class="btn btn-primary btn-arrow-right"
           >
             Read More
             <svg
+              style="transition: 1s"
+              id="buttonarrow-right"
               xmlns="http://www.w3.org/2000/svg"
               width="16"
               height="16"
@@ -322,42 +383,42 @@
         <div class="col d-flex justify-content-between p-5">
           <img
             class="imgesler"
-            style="width: 6rem; height: auto; filter: grayscale(1)"
+            style="width: 4rem; height: auto; filter: grayscale(1)"
             src="./Resimler/myob.png"
             class="img-thumbnail border border-white"
             alt="myob"
           />
           <img
             class="imgesler"
-            style="width: 6rem; height: auto; filter: grayscale()"
+            style="width: 4rem; height: auto; filter: grayscale()"
             src="./Resimler/belimo.png "
             class="img-thumbnail border border-white"
             alt="belimo"
           />
           <img
             class="imgesler"
-            style="width: 6rem; height: auto; filter: grayscale()"
+            style="width: 4rem; height: auto; filter: grayscale()"
             src="./Resimler/lifegroups.png"
             class="img-thumbnail border border-white"
             alt="lifegroups"
           />
           <img
             class="imgesler"
-            style="width: 6rem; height: auto; filter: grayscale()"
+            style="width: 4rem; height: auto; filter: grayscale()"
             src="./Resimler/CGRABYO.png"
             class="img-thumbnail border border-white"
             alt="CGRABYO"
           />
           <img
             class="imgesler"
-            style="width: 6rem; height: auto; filter: grayscale()"
+            style="width: 4rem; height: auto; filter: grayscale()"
             src="./Resimler/citrus.png"
             class="img-thumbnail border border-white"
             alt="citrus"
           />
           <img
             class="imgesler"
-            style="width: 6rem; height: auto; filter: grayscale()"
+            style="width: 4rem; height: auto; filter: grayscale()"
             src="./Resimler/trustly.png"
             class="img-thumbnail border border-white"
             alt="trustly"
@@ -369,7 +430,7 @@
     <div class="container pt-5 pb-5">
       <div class="row d-flex justify-content-between">
         <div class="col-sm-5 d-flex flex-column gap-2">
-          <div class="col-sm">
+          <div class="col-sm" id="loremback">
             <div class="row p-3 rounded" style="background-color: #f7fcff">
               <div
                 class="col-sm-2 d-flex rounded-circle p-2 shadow-sm p-3 mb-5 bg-body rounded"
@@ -399,8 +460,8 @@
               </div>
             </div>
           </div>
-          <div class="col-sm">
-            <div class="row p-3 rounded" style="background-color: #f7fcff">
+          <div class="col-sm" id="loremback">
+            <div class="row p-3 rounded">
               <div
                 class="col-sm-2 d-flex rounded-circle p-2 shadow-sm p-3 mb-5 bg-body rounded"
                 style="width: fit-content; height: fit-content"
@@ -429,8 +490,8 @@
               </div>
             </div>
           </div>
-          <div class="col-sm">
-            <div class="row p-3 rounded" style="background-color: #f7fcff">
+          <div class="col-sm" id="loremback">
+            <div class="row p-3 rounded">
               <div
                 class="col-sm-2 d-flex d-flex rounded-circle p-2 shadow-sm p-3 mb-5 bg-body rounded"
                 style="width: fit-content; height: fit-content"
@@ -485,21 +546,37 @@
           <div
             class="card"
             style="
-              width: 25rem;
+              width: 30rem;
               background-color: #f7fcff;
               border: none;
               font-size: large;
             "
           >
-            <div class="card-body p-4">
-              <h5 class="card-title">SCorporis temporibus maiores provident</h5>
+            <div
+              class="card-body p-4"
+              style="display: flex; gap: 13px; flex-direction: column"
+            >
+              <h5 class="card-title fs-3">
+                Corporis temporibus maiores provident
+              </h5>
               <p class="card-text text-body-secondary">
                 Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
                 aute irure dolor in reprehenderit in voluptate velit esse cillum
                 dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                 cupidatat non proident.
               </p>
-              <a href="#" class="btn btn-primary">Learn More</a>
+              <a
+                href="#"
+                class="btn btn-primary"
+                style="
+                  border: #388da8;
+                  background-color: #388da8;
+                  width: fit-content;
+                  padding: 0.45rem 2rem;
+                "
+              >
+                learn More</a
+              >
             </div>
           </div>
         </div>
@@ -508,10 +585,10 @@
 
     <div class="container pt-5 pb-5">
       <div class="row">
-        <div class="col-sm-6 d-flex justify-content-center align-items-center">
-          <div class="card border-0" style="width: 25rem">
+        <div class="col-sm-6 d-flex justify-content-start align-items-center">
+          <div class="card border-0 rounded" style="width: 30rem">
             <div class="card-body" style="background-color: #f7fcff">
-              <h5 class="card-title">
+              <h5 class="card-title fs-3">
                 Neque ipsum omnis sapiente quod quia dicta
               </h5>
               <p class="card-text text-body-secondary">
@@ -570,7 +647,17 @@
                 </svg>
                 <span class="text-secondary"> Veniam quia modi magnam.</span>
               </p>
-              <a href="#" class="btn btn-primary">Learn More</a>
+              <a
+                href="#"
+                class="btn btn-primary"
+                style="
+                  border: #388da8;
+                  background-color: #388da8;
+                  width: fit-content;
+                  padding: 0.45rem 2rem;
+                "
+                >Learn More</a
+              >
             </div>
           </div>
         </div>
@@ -585,24 +672,28 @@
       </div>
     </div>
 
-
-
     <div class="p-5" style="background-color: #f7fcff">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6 d-flex flex-column gap-5">
-            <div class="container" id="cardshodaw" style="width: 33rem">
+          <div class="col-sm-6 d-flex flex-column gap-5 gx-5">
+            <div class="container" id="cardshodaw">
               <div class="row border border-1 p-4 rounded bg-white">
                 <div
-                  class="col-sm-2 border border-primary p-3 rounded"
-                  style="width: fit-content; height: fit-content; background-color: #c1daff;"
+                  class="col-sm-2 p-3 rounded"
+                  style="
+                    width: fit-content;
+                    height: fit-content;
+                    color: #0dcaf0;
+                    border: 1px solid #0dcaf0;
+                    background: rgba(13, 202, 240, 0.1);
+                  "
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="30"
                     height="30"
                     fill="currentColor"
-                    class="bi bi-brightness-high-fill text-primary"
+                    class="bi bi-brightness-high-fill"
                     viewBox="0 0 16 16"
                   >
                     <path
@@ -611,12 +702,13 @@
                   </svg>
                 </div>
 
-                <div class="col-sm-8">
+                <div class="col-sm-10">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                    <h5 class="fs-4">Card title</h5>
+                    <p class="card-text text-secondary">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Inventore delectus quibusdam, facere totam dolore aliquid
+                      tempora aut excepturi?
                     </p>
                     <a href="#" class="card-link text-decoration-none"
                       >Card link
@@ -640,14 +732,16 @@
               </div>
             </div>
 
-            <div class="container" id="cardshodaw" style="width: 33rem">
+            <div class="container" id="cardshodaw">
               <div class="row border border-1 p-4 rounded bg-white">
                 <div
-                  class="col-sm-2 border border-primary p-3 rounded"
+                  class="col-sm-2 p-3 rounded"
                   style="
                     width: fit-content;
                     height: fit-content;
-                    background-color: #c1daff;
+                    color: #20c997;
+                    border: 1px solid #20c997;
+                    background: rgba(32, 201, 151, 0.1);
                   "
                 >
                   <svg
@@ -655,7 +749,7 @@
                     width="30"
                     height="30"
                     fill="currentColor"
-                    class="bi bi-brightness-high-fill text-primary"
+                    class="bi bi-brightness-high-fill"
                     viewBox="0 0 16 16"
                   >
                     <path
@@ -664,12 +758,13 @@
                   </svg>
                 </div>
 
-                <div class="col-sm-8">
+                <div class="col-sm-10">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                    <h5 class="fs-4">Card title</h5>
+                    <p class="card-text text-secondary">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Inventore delectus quibusdam, facere totam dolore aliquid
+                      tempora aut excepturi?
                     </p>
                     <a href="#" class="card-link text-decoration-none"
                       >Card link
@@ -685,19 +780,22 @@
                         <path
                           fill-rule="evenodd"
                           d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
-                        /></svg
-                    ></a>
+                        />
+                      </svg>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="container" id="cardshodaw" style="width: 33rem">
+            <div class="container" id="cardshodaw">
               <div class="row border border-1 p-4 rounded bg-white">
                 <div
-                  class="col-sm-2 border border-primary p-3 rounded"
+                  class="col-sm-2 p-3 rounded"
                   style="
-                    background-color: #c1daff;
+                    color: #20c997;
+                    border: 1px solid #20c997;
+                    background: rgba(32, 201, 151, 0.1);
                     width: fit-content;
                     height: fit-content;
                   "
@@ -707,7 +805,7 @@
                     width="30"
                     height="30"
                     fill="currentColor"
-                    class="bi bi-brightness-high-fill text-primary"
+                    class="bi bi-brightness-high-fill"
                     viewBox="0 0 16 16"
                   >
                     <path
@@ -716,12 +814,13 @@
                   </svg>
                 </div>
 
-                <div class="col-sm-8">
+                <div class="col-sm-10">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                    <h5 class="fs-4">Card title</h5>
+                    <p class="card-text text-secondary">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Inventore delectus quibusdam, facere totam dolore aliquid
+                      tempora aut excepturi?
                     </p>
                     <a href="#" class="card-link text-decoration-none"
                       >Card link
@@ -746,15 +845,17 @@
             </div>
           </div>
 
-          <div class="col-sm-6 d-flex flex-column gap-5">
-            <div class="container" id="cardshodaw" style="width: 33rem">
+          <div class="col-sm-6 d-flex flex-column gap-5 gx-5">
+            <div class="container" id="cardshodaw">
               <div class="row border border-1 p-4 rounded bg-white">
                 <div
-                  class="col-sm-2 border border-primary p-3 rounded"
+                  class="col-sm-2 p-3 rounded"
                   style="
                     width: fit-content;
                     height: fit-content;
-                    background-color: #c1daff;
+                    color: #df1529;
+                    border: 1px solid #df1529;
+                    background: rgba(223, 21, 4, 0.1);
                   "
                 >
                   <svg
@@ -762,7 +863,7 @@
                     width="30"
                     height="30"
                     fill="currentColor"
-                    class="bi bi-brightness-high-fill text-primary"
+                    class="bi bi-brightness-high-fill"
                     viewBox="0 0 16 16"
                   >
                     <path
@@ -771,12 +872,13 @@
                   </svg>
                 </div>
 
-                <div class="col-sm-8">
+                <div class="col-sm-10">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                    <h5 class="fs-4">Card title</h5>
+                    <p class="card-text text-secondary">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Inventore delectus quibusdam, facere totam dolore aliquid
+                      tempora aut excepturi?
                     </p>
                     <a href="#" class="card-link text-decoration-none"
                       >Card link
@@ -792,24 +894,27 @@
                         <path
                           fill-rule="evenodd"
                           d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
-                        /></svg
-                    ></a>
+                        />
+                      </svg>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="container" id="cardshodaw" style="width: 33rem">
+            <div class="container" id="cardshodaw">
               <div
                 class="row border border-1 p-4 rounded"
                 style="background-color: #f7fcff"
               >
                 <div
-                  class="col-sm-2 border border-primary p-3 rounded"
+                  class="col-sm-2y p-3 rounded"
                   style="
                     width: fit-content;
                     height: fit-content;
-                    background-color: #c1daff;
+                    color: #6610f2;
+                    border: 1px solid #6610f2;
+                    background: rgba(102, 16, 242, 0.1);
                   "
                 >
                   <svg
@@ -817,7 +922,7 @@
                     width="30"
                     height="30"
                     fill="currentColor"
-                    class="bi bi-brightness-high-fill text-primary"
+                    class="bi bi-brightness-high-fill"
                     viewBox="0 0 16 16"
                   >
                     <path
@@ -826,12 +931,13 @@
                   </svg>
                 </div>
 
-                <div class="col-sm-8">
+                <div class="col-sm-10">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                    <h5 class="fs-4">Card title</h5>
+                    <p class="card-text text-secondary">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Inventore delectus quibusdam, facere totam dolore aliquid
+                      tempora aut excepturi?
                     </p>
                     <a href="#" class="card-link text-decoration-none"
                       >Card link
@@ -847,33 +953,35 @@
                         <path
                           fill-rule="evenodd"
                           d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
-                        /></svg
-                    ></a>
+                        />
+                      </svg>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="container" id="cardshodaw" style="width: 33rem">
+            <div class="container" id="cardshodaw">
               <div
                 class="row border border-1 p-4 rounded"
                 style="background-color: #f7fcff"
               >
                 <div
-                  class="col-sm-2 border border-primary p-3 rounded"
+                  class="col-sm-2 p-3 rounded"
                   style="
                     width: fit-content;
                     height: fit-content;
-                    background-color:#c1daff;
+                    color: #f3268c;
+                    border: 1px solid #f3268c;
+                    background: rgba(243, 38, 140, 0.1);
                   "
                 >
                   <svg
-                    style="color: #388da8"
                     xmlns="http://www.w3.org/2000/svg"
                     width="30"
                     height="30"
                     fill="currentColor"
-                    class="bi bi-brightness-high-fill text-primary"
+                    class="bi bi-brightness-high-fill"
                     viewBox="0 0 16 16"
                   >
                     <path
@@ -882,12 +990,13 @@
                   </svg>
                 </div>
 
-                <div class="col-sm-8">
+                <div class="col-sm-10">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                    <h5 class="fs-4">Card title</h5>
+                    <p class="card-text text-secondary">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Inventore delectus quibusdam, facere totam dolore aliquid
+                      tempora aut excepturi?
                     </p>
                     <a href="#" class="card-link text-decoration-none"
                       >Card link
@@ -1043,7 +1152,10 @@
               <p class="card-text fs-1">
                 <sup>$</sup>0<sub class="text-body-secondary fs-5">/mont</sub>
               </p>
-              <a id="buttons" href="#" class="btn btn-outline-primary border border-dark"
+              <a
+                id="buttons"
+                href="#"
+                class="btn btn-outline-primary border border-dark"
                 >Go somewhere</a
               >
               <p class="text-center">
@@ -1086,8 +1198,13 @@
           </div>
         </div>
         <div class="col-sm-4">
-          <div class="card" style="position: relative;">
-            <button id="buttonpopuler" style="width: fit-content; height:fit-content;">populer</button>
+          <div class="card" style="position: relative">
+            <button
+              id="buttonpopuler"
+              style="width: fit-content; height: fit-content"
+            >
+              populer
+            </button>
             <div class="card-body d-flex flex-column gap-2">
               <h5 class="card-title">Special title treatment</h5>
               <p class="card-text">
@@ -1139,7 +1256,9 @@
               <p class="card-text fs-1">
                 <sup>$</sup>49<sub class="text-body-secondary fs-5">/mont</sub>
               </p>
-              <a id="buttons" href="#" class="btn btn-outline-primary">Go somewhere</a>
+              <a id="buttons" href="#" class="btn btn-outline-primary"
+                >Go somewhere</a
+              >
               <p class="text-center">
                 <small class="text-body-secondary"
                   >Last updated 3 mins ago</small
@@ -1342,138 +1461,6 @@
       </div>
     </div>
 
-    <!-- TESTIMONIALS -->
-    <section class="testimonials">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div id="customers-testimonials" class="owl-carousel">
-              <!--TESTIMONIAL 1 -->
-              <div class="item">
-                <div class="shadow-effect">
-                  <img
-                    class="img-circle"
-                    src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
-                    alt=""
-                  />
-                  <p>
-                    Dramatically maintain clicks-and-mortar solutions without
-                    functional solutions. Completely synergize resource taxing
-                    relationships via premier niche markets. Professionally
-                    cultivate.
-                  </p>
-                </div>
-                <div class="testimonial-name">EMILIANO AQUILANI</div>
-              </div>
-              <!--END OF TESTIMONIAL 1 -->
-              <!--TESTIMONIAL 2 -->
-              <div class="item">
-                <div class="shadow-effect">
-                  <img
-                    class="img-circle"
-                    src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
-                    alt=""
-                  />
-                  <p>
-                    Dramatically maintain clicks-and-mortar solutions without
-                    functional solutions. Completely synergize resource taxing
-                    relationships via premier niche markets. Professionally
-                    cultivate.
-                  </p>
-                </div>
-                <div class="testimonial-name">ANNA ITURBE</div>
-              </div>
-              <!--END OF TESTIMONIAL 2 -->
-              <!--TESTIMONIAL 3 -->
-              <div class="item">
-                <div class="shadow-effect">
-                  <img
-                    class="img-circle"
-                    src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
-                    alt=""
-                  />
-                  <p>
-                    Dramatically maintain clicks-and-mortar solutions without
-                    functional solutions. Completely synergize resource taxing
-                    relationships via premier niche markets. Professionally
-                    cultivate.
-                  </p>
-                </div>
-                <div class="testimonial-name">LARA ATKINSON</div>
-              </div>
-              <!--END OF TESTIMONIAL 3 -->
-              <!--TESTIMONIAL 4 -->
-              <div class="item">
-                <div class="shadow-effect">
-                  <img
-                    class="img-circle"
-                    src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
-                    alt=""
-                  />
-                  <p>
-                    Dramatically maintain clicks-and-mortar solutions without
-                    functional solutions. Completely synergize resource taxing
-                    relationships via premier niche markets. Professionally
-                    cultivate.
-                  </p>
-                </div>
-                <div class="testimonial-name">IAN OWEN</div>
-              </div>
-              <!--END OF TESTIMONIAL 4 -->
-              <!--TESTIMONIAL 5 -->
-              <div class="item">
-                <div class="shadow-effect">
-                  <img
-                    class="img-circle"
-                    src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg"
-                    alt=""
-                  />
-                  <p>
-                    Dramatically maintain clicks-and-mortar solutions without
-                    functional solutions. Completely synergize resource taxing
-                    relationships via premier niche markets. Professionally
-                    cultivate.
-                  </p>
-                </div>
-                <div class="testimonial-name">MICHAEL TEDDY</div>
-              </div>
-              <!--END OF TESTIMONIAL 5 -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- END OF TESTIMONIALS -->
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    >
-
-      jQuery(document).ready(function($) {
-              		"use strict";
-              		//  TESTIMONIALS CAROUSEL HOOK
-      		        $('#customers-testimonials').owlCarousel({
-      		            loop: true,
-      		            center: true,
-      		            items: 3,
-      		            margin: 0,
-      		            autoplay: true,
-      		            dots:true,
-      		            autoplayTimeout: 8500,
-      		            smartSpeed: 450,
-      		            responsive: {
-      		              0: {
-      		                items: 1
-      		              },
-      		              768: {
-      		                items: 2
-      		              },
-      		              1170: {
-      		                items: 3
-      		              }
-      		            }
-      		        });
-              	});
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
