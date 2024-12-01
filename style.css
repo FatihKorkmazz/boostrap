@@ -1,6 +1,10 @@
-.neydi {
-  background-image: src();
-}
+
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;}
+
+
+
 .imgesler:hover {
   filter: grayscale(0) !important;
 }
@@ -17,8 +21,8 @@
 }
 
 #buttons:hover {
-  border: 1px solid #0a58ca !important;
-  background-color: #0d6efd;
+  border: 1px solid #388da3 !important;
+  background-color: #388da3!important;
   color: white !important;
 }
 
@@ -47,16 +51,21 @@
 #box:hover #boxp {
   color: #388da3 !important;
 }
- #loremback :hover{ background-color: #f7fcff ;
+#loremback :hover {
+  background-color: #f7fcff;
   cursor: pointer;
-  
- }
- #buttonarrow-rightup:hover svg{
+}
+#buttonarrow-rightup:hover svg {
   transition: all 0.5ms ease-in-out;
   transform: translateX(10px);
- }
+}
 
-#buttonarrow-rightup{
- transition: 1ms;
- 
+#buttonarrow-rightup {
+  transition: 1ms;
+}
+
+#buttonpopuler {
+  top: 10px;
+  right: 10px;
+  position: absolute;
 }
